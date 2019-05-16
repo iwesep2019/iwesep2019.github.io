@@ -30,9 +30,10 @@ deploy:
   # scriptセクションで実行したビルド結果をそのまま残す
   skip-cleanup: true
   # githubから取得したpersonal access token
+  # travis ciのダッシュボードのsettingsでトークンを登録しておく
   github-token: $GITHUB_TOKEN
   # force pushせずにcommitを重ねる
   keep-history: true
-  # masterブランチへのpush時のみに限る
+  # developブランチへのpush時のみに限る
   on:
-    branch: master
+    branch: develop

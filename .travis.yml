@@ -34,9 +34,11 @@ deploy:
   github-token: $GITHUB_TOKEN
   # force pushせずにcommitを重ねる
   keep-history: true
-  # developブランチへのpush時のみに限る
+  # developブランチへのpushをトリガーにする
   on:
     branch: develop
+  # masterブランチへデプロイする
+  target_branch: master
 
 branches:
   only:

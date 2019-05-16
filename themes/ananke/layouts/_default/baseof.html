@@ -21,12 +21,16 @@
     {{ with $stylesheet.css }}
       <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
     {{ end }}
-
+`
     {{ range .Site.Params.custom_css }}
       <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}">
     {{ end }}
+    
+    {{ range .Site.Params.custom_css -}}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+    {{- end }}
 
-    {{ block "favicon" . }}
+    {{ block "favicon" . }}`
       {{ partialCached "site-favicon.html" . }}
     {{ end }}
 

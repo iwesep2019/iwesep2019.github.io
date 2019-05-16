@@ -37,3 +37,7 @@ deploy:
   # developブランチへのpush時のみに限る
   on:
     branch: develop
+
+branches:
+  only:
+  - develop

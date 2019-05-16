@@ -8,7 +8,7 @@ Our website is under construction, we are sorry for any inconvenience.
 
 {{< important_dates >}}
 
-### Past IWESEP
+### Previous IWESEP
 
 - [IWESEP 2018](https://iwesep2018.github.io/)
 - [IWESEP 2017](https://iwesep2017.github.io/)

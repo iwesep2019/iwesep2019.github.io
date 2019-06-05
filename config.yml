@@ -1,0 +1,223 @@
+baseurl: "https://iwesep2019.github.io/"
+title: "IWESEP 2019"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "IWESEP 2019"
+  Description: "The 10th International Workshop on Empirical Software Engineering in Practice"
+  Date: "November 15"
+  # Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Coco Bongo"
+  Address: "Boulevard Kukulcan, 30"
+  City:  "Kanagawa"
+  State: "Japan"
+  # Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - important
+    - cfp
+    - venue
+    # - speakers
+    # - program
+    - organization
+    # - sponsors
+    # - partners
+    - previous
+    # - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "IWESEP 2019"
+    important: "Important Dates"
+    cfp: "Call for Papers"
+    venue: "Venue"
+    speakers: "Keynote"
+    program: "Program"
+    organization: "Organization"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    previous: "Previous IWESEP"
+    contact: "Contact"
+
+  # List of Important Days
+  Important:
+    - name: "Abstract submission"
+      date: "TBD"
+      done: true
+    - name: "Research paper submission"
+      date: "TBD"
+      done: false
+    - name: "Notifications"
+      date: "TBD"
+      done: false
+    - name: "Camera Ready"
+      date: "TBD"
+      done: false
+    - name: "Fast abstract submission"
+      date: "TBD"
+      done: false
+    - name: "Notifications"
+      date: "TBD"
+      done: false
+  
+  # List of Previous Editions
+  Previous:
+    - name: "IWESEP 2018"
+      url: "https://iwesep2018.github.io/"
+    - name: "IWESEP 2017"
+      url: "https://iwesep2017.github.io/"
+    - name: "IWESEP 2016"
+      url: "https://iwesep2016.github.io/"
+    - name: "IWESEP 2014"
+      url: "https://iwesep2014.github.io/" 
+    - name: "IWESEP 2013"
+      url: "https://sites.google.com/site/iwesep2013/home"
+    - name: "IWESEP 2012"
+      url: "https://sites.google.com/site/iwesep2012/home"
+    - name: "IWESEP 2011"
+      url: "https://sites.google.com/site/iwesep2011/home"
+    - name: "IWESEP 2010"
+      url: "https://iwesep.wordpress.com/" 
+    - name: "IWESEP 2009"
+      url: "http://sdlab.naist.jp/IWESEP2009/organization.html"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  # CallToAction:
+  #   text: "Register now!"
+  #   link: "http://register.example.com"
+
+  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+  # ForkButton:
+  #   repository: "https://github.com/jweslley/hugo-conference/"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "Hugo"
+      logo: "/img/hugo.png"
+      url: "http://gohugo.io"
+
+  # List of Partners
+  Partners:
+    - name: "Hugo"
+      logo: "/img/hugo.jpg"
+      url: "https://gohugo.io"
+    - name: "BrazilJS"
+      logo: "/img/partner.png"
+      url: "http://braziljs.org"
+
+  # List of Organization
+  Organization:
+    - role: "General Co-Chairs"
+      member:
+        - name: "Keisuke Hotta"
+          url: "http://sdl.ist.osaka-u.ac.jp/~k-hotta/index-e.html"
+          affiliation: "Fujitsu Laboratories Ltd."
+          state: "Japan"
+        - name: "Takao Nakagawa"
+          affiliation: "Fujitsu Laboratories Ltd."
+          state: "Japan"
+        - name: "Kazuhiro Yamashita"
+          affiliation: "Fujitsu Laboratories Ltd."
+          state: "Japan"
+    - role: "Program Co-Chairs"
+      member:
+        - name: "Akinori Ihara"
+          url: "http://web.wakayama-u.ac.jp/~ihara/"
+          affiliation: "Wakayama University"
+          state: "Japan"
+        - name: "Marco Aurélio Gerosa"
+          url: "http://www.ime.usp.br/~gerosa"
+          affiliation: "Northern Arizona University"
+          state: "USA"
+
+  # The entire program
+  Program:
+    - name: "Check-in / Breakfast"
+      time: "9h00"
+
+    - name: "Linus Torvalds"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Linux Foundation"
+      link:
+        href: "http://twitter.com/linus"
+        text: "@linus"
+      presentation:
+        title: "Digging into a Linux Kernel"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "10h00"
+
+    - name: "Bill Gates"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Microsoft"
+      link:
+        href: "http://github.com/billy95"
+        text: "@billy95"
+      presentation:
+        title: "Introducing Windows 12"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "11h00"
+
+    - name: "Lunch"
+      time: "12h00"
+
+    - name: "Chuck Norris"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Delta Command"
+      link:
+        href: "http://twitter.com/littlechuck"
+        text: "@littlechuck"
+      presentation:
+        title: "How to kill a elephant with one finger"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "13h00"
+
+    - name: "Steve Jobs"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Apple, Inc."
+      link:
+        href: "http://github.com/stevie"
+        text: "@stevie"
+      presentation:
+        title: "Presenting iPad"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "14h00"
+
+    - name: "Coffee-break"
+      time: "15h00"
+
+    - name: "Mark Zuckerberg"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Facebook"
+      link:
+        href: "http://twitter.com/zuck"
+        text: "@zuck"
+      presentation:
+        title: "Revealing Facebook Secrets"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "16h00"
+
+    - name: "Steve Wozniak"
+      photo: "/img/speaker.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Apple, Inc."
+      link:
+        href: "http://twitter.com/woz"
+        text: "@woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "17h00"

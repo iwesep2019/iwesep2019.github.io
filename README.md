@@ -21,4 +21,4 @@ The overview of branch policy is below.
 feature/xx 
 --(Pull request)-> develop 
 --(Deploy via Travis CI)-> master
-``
+```

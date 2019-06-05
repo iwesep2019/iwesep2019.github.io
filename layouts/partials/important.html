@@ -1,0 +1,29 @@
+<h2 class="section-title">{{ .titles.important }}</h2>
+
+<div class="schedule-tbl">
+  <table>
+    <tbody>
+      {{ range $slot := .important }}
+      {{ if .done }}
+      <tr>
+        <td class="schedule-slot">
+          <p class="important-dates">{{ .name }}</p>
+        </td>
+        <td class="schedule-slot done">
+            <p class="important-dates done">{{ .date }}</p>
+        </td>
+      </tr>
+      {{ else }}
+      <tr>
+        <td class="schedule-slot">
+            <p class="important-dates">{{ .name }}</p>
+        </td>
+        <td class="schedule-slot">
+            <p class="important-dates undone">{{ .date }}</p>
+        </td>
+      </tr>
+      {{ end }}
+      {{ end }}
+    </tbody>
+  </table>
+</div>

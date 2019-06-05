@@ -1,0 +1,19 @@
+<h2 class="section-title">{{ .titles.organization }}</h2>
+
+{{ range $role := .organization }}
+<h4 class="organization">
+  {{ .role }}
+</h4>
+  {{ range $member := .member }}
+  <ul class="organization">
+    <li>
+      <p>
+          {{ with .url }}<a href="{{ . }}">{{ end }}
+            {{ .name }}
+          {{ with .url }}</a>{{ end }}
+          ({{ .affiliation }}, {{ .state }})
+      </p>
+    </li>
+  </ul>
+  {{ end }}
+{{ end }}

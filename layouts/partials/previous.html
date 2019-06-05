@@ -1,0 +1,15 @@
+<h2 class="section-title">{{ .titles.previous }}</h2>
+
+<div class="schedule-tbl">
+  <table>
+    <tbody>
+      {{ range $index, $slot := .previous }}
+      {{ if modBool $index 3}}<tr>{{ end }}
+        <td class="schedule-slot previous">
+            <a class="previous" href="{{ .url }}"><p>{{ .name }}</p></a>
+        </td>
+        {{ if (modBool (add $index 1) 3) }}</tr>{{ end }}
+      {{ end }}
+    </tbody>
+  </table>
+</div>

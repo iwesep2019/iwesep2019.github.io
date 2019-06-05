@@ -9,11 +9,11 @@ params:
   # Conference info
   Name: "IWESEP 2019"
   Description: "The 10th International Workshop on Empirical Software Engineering in Practice"
-  Date: "November 15"
+  Date: "(Date: TBD)"
   # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Coco Bongo"
-  Address: "Boulevard Kukulcan, 30"
-  City:  "Kanagawa"
+  Venue: "(Venue: TBD)"
+  Address: "(Address: TBD)"
+  City:  "(City: TBD)"
   State: "Japan"
   # Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
@@ -24,7 +24,7 @@ params:
     - about
     - important
     - cfp
-    - venue
+    # - venue
     # - speakers
     # - program
     - organization
@@ -51,7 +51,7 @@ params:
   Important:
     - name: "Abstract submission"
       date: "TBD"
-      done: true
+      done: false
     - name: "Research paper submission"
       date: "TBD"
       done: false
@@ -126,6 +126,7 @@ params:
           affiliation: "Fujitsu Laboratories Ltd."
           state: "Japan"
         - name: "Kazuhiro Yamashita"
+          url: "http://posl.ait.kyushu-u.ac.jp/~yamashita/"
           affiliation: "Fujitsu Laboratories Ltd."
           state: "Japan"
     - role: "Program Co-Chairs"

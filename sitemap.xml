@@ -8,14 +8,13 @@
   </url>
   
   <url>
-    <loc>https://iwesep2019.github.io/tags/</loc>
+    <loc>https://iwesep2019.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://iwesep2019.github.io/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://iwesep2019.github.io/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

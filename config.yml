@@ -31,7 +31,7 @@ params:
     # - sponsors
     # - partners
     - previous
-    - contact
+    # - contact
 
   # Titles which you can translate to other languages
   Titles:

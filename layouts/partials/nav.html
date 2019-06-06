@@ -1,13 +1,26 @@
 <nav id="nav">
-  <ul class="wrapper">
-    {{ range $section := $.Site.Params.Sections }}
+  <div class="wrapper">
+    <ul class="social-left">
+      {{ range $section := $.Site.Params.Sections }}
       <li class="nav-item">
         <a href="#{{ $section }}" target="_blank" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
           {{ index $.Site.Params.Titles $section }}
         </a>
       </li>
-    {{ end }}
-  </ul>
+      {{ end }}
+    </ul>
+    <div class="social-right">
+      <a href="https://twitter.com/iwesep">
+        <span class="social fa fa-twitter fa-2x"></span>
+      </a>
+      <a href="https://www.facebook.com/iwesep">
+        <span class="social fa fa-facebook fa-2x"></span>
+      </a>
+      <a href="https://github.com/iwesep2019/iwesep2019.github.io">
+        <span class="social fa fa-github fa-2x"></span>
+      </a>
+    </div>
+  </div>
 </nav>
 
 <hr>

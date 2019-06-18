@@ -22,3 +22,11 @@ feature/xx
 --(Pull request)-> develop 
 --(Deploy via Travis CI)-> master
 ```
+
+## How to Build and Review Pages
+
+1. [Install HUGO CLI tool](https://gohugo.io/getting-started/installing/)
+1. Clone this project
+1. `git checkout develop`
+1. `hugo server -D`
+1. you can access local web server (e.g. http://localhost:1313/)

@@ -9,7 +9,7 @@ params:
   # Conference info
   Name: "IWESEP 2019"
   Description: "The 10th International Workshop on Empirical Software Engineering in Practice"
-  Date: "December 13-14"
+  Date: "December 13-14, 2019"
   # Price: "Only $100" # If your event is free, just comment this line
   Venue: "(Venue: TBD)"
   Address: "(Address: TBD)"
@@ -118,12 +118,12 @@ params:
   Organization:
     - role: "General Co-Chairs"
       member:
-        - name: "Kazuhiro Yamashita"
-          affiliation: "Fujitsu Laboratories Ltd."
-        - name: "Takao Nakagawa"
-          affiliation: "Fujitsu Laboratories Ltd."
         - name: "Keisuke Hotta"
-          affiliation: "Fujitsu Laboratories Ltd."
+          affiliation: "FUJITSU LABORATORIES LTD."
+        - name: "Takao Nakagawa"
+          affiliation: "FUJITSU LABORATORIES LTD."
+        - name: "Kazuhiro Yamashita"
+          affiliation: "FUJITSU LABORATORIES LTD."
     - role: "PC Co-Chairs"
       member:
         - name: "Akinori Ihara"

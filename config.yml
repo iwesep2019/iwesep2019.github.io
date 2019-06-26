@@ -13,7 +13,7 @@ params:
   # Price: "Only $100" # If your event is free, just comment this line
   Venue: "(Venue: TBD)"
   Address: "(Address: TBD)"
-  City:  "Kawasaki"
+  City:  "Tokyo"
   State: "Japan"
   # Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
@@ -28,7 +28,7 @@ params:
     # - speakers
     # - program
     - organization
-    # - sponsors
+    - sponsors
     # - partners
     - previous
     # - contact
@@ -101,9 +101,12 @@ params:
 
   # List of Sponsors
   Sponsors:
-    - name: "Hugo"
-      logo: "/img/hugo.png"
-      url: "http://gohugo.io"
+    - name: "Global Software Engineering Laboratory, Waseda University"
+      # logo: "/img/gcs_logo.png"
+      url: "https://www.waseda.jp/inst/gcs/en/labo/globalsoftware/"
+    # - name: "Hugo"
+    #   logo: "/img/hugo.png"
+    #   url: "http://gohugo.io"
 
   # List of Partners
   Partners:

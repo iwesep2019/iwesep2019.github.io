@@ -102,8 +102,9 @@ params:
   # List of Sponsors
   Sponsors:
     - name: "Global Software Engineering Laboratory, Waseda University"
-      # logo: "/img/gcs_logo.png"
       url: "https://www.waseda.jp/inst/gcs/en/labo/globalsoftware/"
+    - name: "Nara Institute of Science and Technology"
+      url: "http://www.naist.jp/en/"
     # - name: "Hugo"
     #   logo: "/img/hugo.png"
     #   url: "http://gohugo.io"

@@ -722,9 +722,16 @@ nav {
   background-image: url('../img/cover.jpg');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 100% auto;
+  background-position: center center;
+  background-size: cover;
 }
+/* .header-layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  display: block;
+  width: auto;
+  height: auto;
+} */
 .logo-link,
 .tagline,
 .call-action-area .price {
@@ -758,12 +765,23 @@ nav {
 .github-link img {
   border: 0;
 }
+.photo-by {
+  position: relative;
+  text-align: left;
+  font-weight: normal;
+}
+.photo-by a {
+  color: #d39000;
+}
 /* =============================================================================
    CONTENT
    ========================================================================== */
+.photo-by a,
 .content a {
   color: #d39000;
 }
+.photo-by a:hover,
+.photo-by a:focus,
 .content a:hover,
 .content a:focus {
   color: #e2b900;
@@ -883,7 +901,7 @@ nav {
    ========================================================================== */
 @media only screen and (max-width: 1024px) {
   .header {
-    background-size: auto 100%;
+    background-size: cover;
   }
 }
 @media only screen and (max-width: 480px) {

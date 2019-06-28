@@ -11,8 +11,8 @@ params:
   Description: "The 10th International Workshop on Empirical Software Engineering in Practice"
   Date: "December 13-14, 2019"
   # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "(Venue: TBD)"
-  Address: "(Address: TBD)"
+  Venue: "Nishiwaseda Campus of Waseda University"
+  Address: "3-4-1 Ookubo, Shinjuku-ku, Tokyo, 169-8555, JAPAN"
   City:  "Tokyo"
   State: "Japan"
   # Images: ["/img/badge.jpg"]
@@ -24,7 +24,7 @@ params:
     - about
     - important
     - cfp
-    # - venue
+    - venue
     # - speakers
     # - program
     - organization

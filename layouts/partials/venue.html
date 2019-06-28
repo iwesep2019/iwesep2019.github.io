@@ -1,9 +1,37 @@
 <h2 class="section-title">{{ .titles.venue }}</h2>
 
-<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  <span itemprop="streetAddress">{{ .address }}. </span>
-  <span itemprop="addressLocality">{{ .city }}</span>,
-  <span itemprop="addressRegion"> {{ .state }}</span>
-</p>
+<div class="venue">
+  <p>
+    The 10th International Workshop on Empirical Software Engineering in Practice (IWESEP'19) will be held at
+    <a href="https://www.waseda.jp/top/en/access/nishiwaseda-campus">Nishiwaseda Campus of Waseda University</a>.
+    The workshop room will be located on the first floor of <b>Building No. 55, N Tower</b>.
+  </p>
 
-<div id="map-canvas" class="location-area" data-address="{{ .address }}, {{ .city }} - {{ .state }}"></div>
+  <p>
+    Nishiwaseda campus is located at a very convenient place in Tokyo.
+    There are three train stations near that campus.
+    <ul>
+      <li>
+          [Tokyo Metro] Fukutoshin line, <b>Nishi-Waseda</b> (西早稲田 / <i>F11</i>) Station (3 min on foot)
+      </li>
+      <li>
+          [JR] Yamanote line, <b>Takadanobaba</b> (高田馬場 / <i>JY15</i>) Station (13 min on foot)
+      </li>
+      <li>
+          [JR] Yamanote line, <b>Shin-Okubo</b> (新大久保 / <i>JY16</i>) Station (15 min on foot)
+      </li>
+    </ul>
+  </p>
+
+  <p >
+    Using Nishi-Waseda station is the most convenient option to get to the workshop venue.
+    If you are getting off at Nishi-Waseda station, please leave from Exit 3 (not Exit 1 or 2). This exit will take you
+    directly to the campus. Building No. 55, where the workshop will be held, stands very closely to that exit.
+    Be aware that it will take a few minutes walk if you use other exits.
+  </p>
+
+</div>
+
+<div id="map-canvas" class="location-area" data-address="{{ .address }}">
+<iframe src="https://maps.google.co.jp/maps?output=embed&t=m&hl=en&z=16&ll=35.7059587,139.7084054&q=35.7059587,139.7084054&q=早稲田大学西早稲田キャンパス55号館N棟" frameborder="0" scrolling="no" width="100%" height="100%"></iframe>
+</div>

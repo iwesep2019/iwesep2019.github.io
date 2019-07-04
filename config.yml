@@ -147,8 +147,8 @@ params:
       member:
         - name: "Tomomi Hatano"
           affiliation: "FUJITSU LABORATORIES LTD."
-        - name: "Keitaro Nakasai"
-          affiliation: "Nara Institute of Science and Technology"
+        # - name: "Keitaro Nakasai"
+        #   affiliation: "Nara Institute of Science and Technology"
     - role: "Finance Co-Chairs"
       member:
         - name: "Hideaki Hata"
@@ -169,6 +169,8 @@ params:
       member:
         - name: "Kunihiro Noda"
           affiliation: "FUJITSU LABORATORIES LTD."
+        - name: "Kazuya Aizawa"
+          affiliation: "Waseda University"
     - role: "Steering Committee Members"
       member:
         - name: "Akinori Ihara"

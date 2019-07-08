@@ -21,16 +21,16 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
-    - about
-    - important
+    # - about
+    # - important
     - cfp
-    - venue
+    # - venue
     # - speakers
     # - program
-    - organization
-    - sponsors
+    # - organization
+    # - sponsors
     # - partners
-    - previous
+    # - previous
     # - contact
 
   # Titles which you can translate to other languages
@@ -91,9 +91,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  # CallToAction:
-  #   text: "Register now!"
-  #   link: "https://easychair.org/conferences/?conf=iwesep2019"
+  CallToAction:
+    text: "Flyer 向け編集中"
+    link: ""
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   # ForkButton:

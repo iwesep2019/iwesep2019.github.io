@@ -281,10 +281,10 @@ hr {
   position: relative;
 }
 .content {
-  padding: 50px 0;
+  padding: 0px 40px 40px 20px;
 }
 .content section {
-  padding-top: 50px;
+  padding: 40px 40px 40px 20px;
 }
 /* =============================================================================
    BASIC STYLES
@@ -333,35 +333,41 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
+  padding: 10px 0 10px;
   text-align: center;
 }
 .logo-name {
   margin-bottom: 0;
-  font-size: 10em;
+  font-size: 8em;
   letter-spacing: -0.04em;
 }
 .tagline {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 2em;
   letter-spacing: -0.02em;
 }
+
+h3.tagline {
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-size: 1em;
+  letter-spacing: 0em;
+}
+
 .call-action-area .price {
   font-size: 4em;
   vertical-align: center;
-  margin-right: 20px;
 }
 .call-action-area .call-action-link,
 .btn {
-  position: relative;
-  top: -5px;
+  position: absolute;
+  top: -80px;
+  right: 0;
   cursor: pointer;
   display: inline-block;
   padding: 15px 30px;
   font-size: 2em;
   line-height: 1em;
-  vertical-align: center;
-  letter-spacing: -0.02em;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -378,8 +384,8 @@ nav {
    ABOUT
    ========================================================================== */
 .about {
-  padding: 19px;
-  margin: 0 -20px 0;
+  padding: 0;
+  margin: 0 0 0;
 }
 /* =============================================================================
    SPEAKER
@@ -772,6 +778,7 @@ nav {
 }
 .photo-by a {
   color: #d39000;
+  padding: 10px;
 }
 /* =============================================================================
    CONTENT
@@ -1017,8 +1024,8 @@ margin-top: 0em;
 margin-bottom: 0.5em;
 margin-left: 0.5em;
 padding: 0em;
-font-size: 1.6em;
-line-height: 1.6em;
+font-size: 1.4em;
+line-height: 1.4em;
 }
 
 .venue li {
@@ -1030,7 +1037,8 @@ padding: 0em;
 }
 
 .venue p {
-  margin-bottom: 20px;
+  font-size: 1.4em;
+  margin-bottom: 10px;
 }
 
 .venue code {

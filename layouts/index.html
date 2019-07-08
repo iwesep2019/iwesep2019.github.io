@@ -1,5 +1,6 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/Event">
+
 <head>
   <title itemprop="name">{{ .Site.Params.Name }}</title>
 
@@ -17,8 +18,10 @@
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
   <link rel="stylesheet" type="text/css" href="/css/main.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
+
 <body>
   <!-- load js hack-->
   <div id="map-canvas"></div>
@@ -30,13 +33,27 @@
 
     <div class="content" id="content">
       <div class="wrapper">
-        {{ range $section := .Site.Params.Sections }}
+        <div class="left">
+          {{ range $section := .Site.Params.Side }}
           <section class="{{ $section }}" id="{{ $section }}">
             {{ partial $section $.Site.Params }}
           </section>
-        {{ end }}
+          {{ end }}
+        </div>
+        <div class="right">
+          {{ range $section := .Site.Params.Sections }}
+          <section class="{{ $section }}" id="{{ $section }}">
+            {{ partial $section $.Site.Params }}
+          </section>
+          {{ end }}
+        </div>
+
+        <footer class="footer">
+          <p>Image copyrights: yu.kleides https://www.flickr.com/photos/yu-kleides/11706650856/</p>
+        </footer>
       </div>
     </div>
+  </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -49,4 +66,5 @@
   {{ end }}
   {{ template "_internal/google_analytics_async.html" . }}
 </body>
+
 </html>

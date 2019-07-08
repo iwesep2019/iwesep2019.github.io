@@ -21,9 +21,11 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
-    # - about
-    # - important
     - cfp
+  Side:
+    - organization
+    # - about
+    - important
     # - venue
     # - speakers
     # - program

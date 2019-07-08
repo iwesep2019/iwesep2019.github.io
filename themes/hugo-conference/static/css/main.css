@@ -1032,3 +1032,8 @@ padding: 0em;
 .venue p {
   margin-bottom: 20px;
 }
+
+.venue code {
+  color: #214f87;
+  font-family: 'Courier New', Consolas, monospace !important;
+}

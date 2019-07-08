@@ -50,22 +50,22 @@ params:
   # List of Important Days
   Important:
     - name: "Abstract submission"
-      date: "TBD"
+      date: "September 20th, 2019"
       done: false
     - name: "Research paper submission"
-      date: "TBD"
+      date: "September 27th, 2019"
       done: false
     - name: "Notifications"
-      date: "TBD"
+      date: "November 1st, 2019"
       done: false
     - name: "Camera Ready"
-      date: "TBD"
+      date: "November 8th, 2019"
       done: false
-    - name: "Fast abstract submission"
-      date: "TBD"
+    - name: "Abstract submission (Poster)"
+      date: "November 5th, 2019"
       done: false
-    - name: "Notifications"
-      date: "TBD"
+    - name: "Notifications (Poster)"
+      date: "November 10th, 2019"
       done: false
   
   # List of Previous Editions
@@ -93,7 +93,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   # CallToAction:
   #   text: "Register now!"
-  #   link: "http://register.example.com"
+  #   link: "https://easychair.org/conferences/?conf=iwesep2019"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   # ForkButton:

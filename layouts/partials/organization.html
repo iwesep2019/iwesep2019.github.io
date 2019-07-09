@@ -3,6 +3,13 @@
 {{ range $role := .organization }}
 <h4 class="organization">
   {{ .role }}
+  {{ if .chair }}
+    {{ if gt (len .member) 1 }}
+      Co-Chairs
+    {{ else }}
+      Chair
+    {{ end }}
+  {{ end }}
 </h4>
   {{ range $member := .member }}
   <ul class="organization">

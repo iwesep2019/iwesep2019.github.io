@@ -957,20 +957,19 @@ nav {
 /* =============================================================================
    Organization
    ========================================================================== */
-.organization ul{
+ul.organization{
   margin-top: 0em;
-  margin-bottom: 0.5em;
   margin-left: 0.5em;
   padding: 0em;
-  font-size: 1.0em;
 }
 
 .organization li{
   list-style-type: disc;
   margin-top: 0em;
-  margin-bottom: 0em;
   margin-left: 1em;
   padding: 0em;
+  font-size: 1.6em;
+  line-height: 1.6em;
 }
 
 .organization p{

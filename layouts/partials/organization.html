@@ -14,7 +14,10 @@
 <ul class="organization">
   {{ range $member := .member }}
   <li>
-    {{ .name }} ({{ .affiliation }})
+    {{ with .url }}<a href="{{ . }}">{{ end }}
+      {{ .name }}
+      {{ with .url }}</a>{{ end }}
+    ({{ .affiliation }})
   </li>
   {{ end }}
 </ul>

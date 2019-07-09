@@ -120,7 +120,8 @@ params:
 
   # List of Organization
   Organization:
-    - role: "General Co-Chairs"
+    - role: "General"
+      chair: true
       member:
         - name: "Keisuke Hotta"
           affiliation: "FUJITSU LABORATORIES LTD."
@@ -128,7 +129,8 @@ params:
           affiliation: "FUJITSU LABORATORIES LTD."
         - name: "Kazuhiro Yamashita"
           affiliation: "FUJITSU LABORATORIES LTD."
-    - role: "PC Co-Chairs"
+    - role: "PC"
+      chair: true
       member:
         - name: "Akinori Ihara"
           url: "http://web.wakayama-u.ac.jp/~ihara/"
@@ -136,42 +138,49 @@ params:
         - name: "Marco Aurélio Gerosa"
           url: "http://www.ime.usp.br/~gerosa"
           affiliation: "Northern Arizona University"
-    - role: "Publication Co-Chairs"
+    - role: "Publication"
+      chair: true
       member:
         - name: "Masanari Kondo"
           url: "https://se.is.kit.ac.jp/portfolio/m-kondo/"
           affiliation: "Kyoto Institute of Technology"
         - name: "Dong Wang"
           affiliation: "Nara Institute of Science and Technology"
-    - role: "Registration Co-Chairs"
+    - role: "Registration"
+      chair: true
       member:
         - name: "Tomomi Hatano"
           affiliation: "FUJITSU LABORATORIES LTD."
         # - name: "Keitaro Nakasai"
         #   affiliation: "Nara Institute of Science and Technology"
-    - role: "Finance Co-Chairs"
+    - role: "Finance"
+      chair: true
       member:
         - name: "Hideaki Hata"
           url: "https://hideakihata.github.io/"
           affiliation: "Nara Institute of Science and Technology"
-    - role: "Publicity Co-Chairs"
+    - role: "Publicity"
+      chair: true
       member:
         - name: "Hiroyuki Kirinuki"
           affiliation: "NTT"
         - name: "Gustavo Ansaldi Oliva"
           url: "http://www.gaoliva.com/"
           affiliation: "Queen's University"
-    - role: "Web Chair"
+    - role: "Web"
+      chair: true
       member:
         - name: "Haruki Yokoyama"
           affiliation: "FUJITSU LABORATORIES LTD."
-    - role: "Local Arrangement Chair"
+    - role: "Local Arrangement"
+      chair: true
       member:
         - name: "Kunihiro Noda"
           affiliation: "FUJITSU LABORATORIES LTD."
         - name: "Kazuya Aizawa"
           affiliation: "Waseda University"
     - role: "Steering Committee Members"
+      chair: false
       member:
         - name: "Akinori Ihara"
           url: "http://web.wakayama-u.ac.jp/~ihara/"

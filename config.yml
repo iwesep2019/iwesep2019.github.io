@@ -22,10 +22,11 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - cfp
+    - venue
   Side:
     - organization
     # - about
-    - venue
+    # - venue
     - important
     # - speakers
     # - program
@@ -69,7 +70,7 @@ params:
     - name: "Notifications (Poster)"
       date: "November 10th, 2019"
       done: false
-  
+
   # List of Previous Editions
   Previous:
     - name: "IWESEP 2018"
@@ -79,7 +80,7 @@ params:
     - name: "IWESEP 2016"
       url: "https://iwesep2016.github.io/"
     - name: "IWESEP 2014"
-      url: "https://iwesep2014.github.io/" 
+      url: "https://iwesep2014.github.io/"
     - name: "IWESEP 2013"
       url: "https://sites.google.com/site/iwesep2013/home"
     - name: "IWESEP 2012"
@@ -87,7 +88,7 @@ params:
     - name: "IWESEP 2011"
       url: "https://sites.google.com/site/iwesep2011/home"
     - name: "IWESEP 2010"
-      url: "https://iwesep.wordpress.com/" 
+      url: "https://iwesep.wordpress.com/"
     - name: "IWESEP 2009"
       url: "http://sdlab.naist.jp/IWESEP2009/organization.html"
 

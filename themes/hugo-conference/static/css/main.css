@@ -298,16 +298,16 @@ hr {
   padding: 40px 40px 40px 40px;
 } */
 section#organization {
-  padding: 80px 40px 40px 80px;
+  padding: 60px 40px 40px 80px;
 }
 section#venue {
-  padding: 0px 40px 40px 80px;
+  padding: 0px 80px 40px 40px;
 }
 section#important {
   padding: 0px 40px 40px 80px;
 }
 section#cfp {
-  padding: 80px 80px 40px 40px;
+  padding: 60px 80px 0px 40px;
 }
 footer {
   padding: 80px 80px 60px 80px;
@@ -320,17 +320,23 @@ footer {
 h2,
 h3,
 h4 {
-  font-size: 4em;
-  font-weight: normal;
+  font-family: Georgia;
+  font-size: 3.2em;
+  font-weight: bold;
   margin-bottom: .4em;
   letter-spacing: -0.02em;
 }
+h2 {
+  margin-left: -0.3em;
+}
 h3 {
-  font-size: 3.0em;
+  font-size: 2.4em;
+  margin-left: -0.2em;
 }
 h4 {
   font-size: 1.6em;
-  padding-top: 1em;
+  font-weight: normal;
+  padding-top: 0.2em;
 }
 p {
   font-size: 1.2em;
@@ -378,7 +384,7 @@ nav {
 }
 
 h3.tagline {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   margin-left: 10px;
   font-size: 1.6em;
   letter-spacing: 0em;
@@ -456,6 +462,7 @@ h3.tagline {
    ========================================================================== */
 .schedule-tbl {
   padding: 0px;
+  margin-left: -1em
 }
 .schedule-tbl table {
   border-collapse: collapse;
@@ -988,8 +995,8 @@ nav {
    ========================================================================== */
 .organization ul{
   margin-top: 0em;
-  margin-bottom: 0em;
-  /* margin-left: 0.5em; */
+  margin-bottom: 0.6em;
+   /*margin-left: 0.9em;*/
   padding: 0em;
   font-size: 1em;
 }
@@ -1043,7 +1050,7 @@ margin-top: 0em;
 margin-bottom: 0.5em;
 margin-left: 0.5em;
 padding: 0em;
-text-align: justify;    
+text-align: justify;
 font-size: 1.2em;
 line-height: 1.4em;
 margin-bottom: 1.1em;

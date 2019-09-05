@@ -471,7 +471,7 @@ nav {
   width: 150px;
   height: 150px;
   text-align: center;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   line-height: 150px;
   margin-bottom: 150px;
 }

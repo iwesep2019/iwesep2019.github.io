@@ -50,10 +50,10 @@ params:
   # List of Important Days
   Important:
     - name: "Abstract submission"
-      date: "September 20th, 2019"
+      date: "September 27th, 2019 (extended)"
       done: false
     - name: "Research paper submission"
-      date: "September 27th, 2019"
+      date: "October 4th, 2019 (extended)"
       done: false
     - name: "Notifications"
       date: "November 1st, 2019"

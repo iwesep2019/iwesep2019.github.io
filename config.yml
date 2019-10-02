@@ -44,7 +44,7 @@ params:
     organization: "Organization"
     sponsors: "Sponsors"
     partners: "Partners"
-    previous: "Previous IWESEP"
+    previous: "Previous"
     contact: "Contact"
 
   # List of Important Days

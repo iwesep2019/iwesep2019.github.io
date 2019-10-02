@@ -396,12 +396,12 @@ nav {
   top: 0;
   left: 0;
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
 }
 .speech-title {
   padding-top: 10px;
-  font-size: 2em;
+  font-size: 2.4em;
   margin-bottom: 1em;
 }
 .speech-time {
@@ -410,10 +410,18 @@ nav {
   letter-spacing: -0.03em;
 }
 .speakers-name {
-  font-size: 1.6em;
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+.speakers-bio,
+.speech-abst {
+  font-size: 1.4em;
 }
 .speakers-item p {
   font-size: 1.4em;
+}
+.speakers-list {
+  padding-top: 30px;
 }
 /* =============================================================================
    SCHEDULE
@@ -441,8 +449,8 @@ nav {
 }
 .schedule-tbl .speaker-photo {
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   float: left;
   margin-right: 20px;
 }
@@ -807,7 +815,7 @@ nav {
    ========================================================================== */
 .speaker-photo .photo {
   border-radius: 50%;
-  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.07);
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -815,7 +823,7 @@ nav {
   transition: all 0.3s ease-out;
 }
 .speakers-item:hover .speaker-photo .photo {
-  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
 }
 .speech-time {
   color: #fff;

@@ -50,22 +50,22 @@ params:
   # List of Important Days
   Important:
     - name: "Abstract submission"
-      date: "September 27th, 2019 (extended)"
+      date: "September 27th, 2019 (AOE) (extended)"
       done: true
     - name: "Research paper submission"
-      date: "October 4th, 2019 (extended)"
+      date: "October 4th, 2019 (AOE) (extended)"
       done: false
     - name: "Notifications"
-      date: "November 1st, 2019"
+      date: "November 1st, 2019 (AOE)"
       done: false
     - name: "Camera Ready"
-      date: "November 8th, 2019"
+      date: "November 8th, 2019 (AOE)"
       done: false
     - name: "Abstract submission (Poster)"
-      date: "November 5th, 2019"
+      date: "November 5th, 2019 (AOE)"
       done: false
     - name: "Notifications (Poster)"
-      date: "November 10th, 2019"
+      date: "November 10th, 2019 (AOE)"
       done: false
   
   # List of Previous Editions

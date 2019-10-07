@@ -54,7 +54,7 @@ params:
       done: true
     - name: "Research paper submission"
       date: "October 4th, 2019 (AOE) (extended)"
-      done: false
+      done: true
     - name: "Notifications"
       date: "November 1st, 2019 (AOE)"
       done: false

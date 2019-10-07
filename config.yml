@@ -248,6 +248,12 @@ params:
         - name: "Thomas Zimmermann"
           url: "https://www.microsoft.com/en-us/research/people/tzimmer/"
           affiliation: "Microsoft"
+        - name: "Tetsuya Kanda"
+          url: "http://www.tetsuyakanda.jp/"
+          affiliation: "Osaka University"
+        - name: "Kiyoshi Honda"
+          # url: ""
+          affiliation: "Osaka Institute of Technology"
 
   # The entire program
   Program:

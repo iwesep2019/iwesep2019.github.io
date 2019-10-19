@@ -67,7 +67,7 @@ params:
     - name: "Notifications (Poster)"
       date: "November 10th, 2019 (AOE)"
       done: false
-  
+
   # List of Previous Editions
   Previous:
     - name: "IWESEP 2018"
@@ -77,7 +77,7 @@ params:
     - name: "IWESEP 2016"
       url: "https://iwesep2016.github.io/"
     - name: "IWESEP 2014"
-      url: "https://iwesep2014.github.io/" 
+      url: "https://iwesep2014.github.io/"
     - name: "IWESEP 2013"
       url: "https://sites.google.com/site/iwesep2013/home"
     - name: "IWESEP 2012"
@@ -85,7 +85,7 @@ params:
     - name: "IWESEP 2011"
       url: "https://sites.google.com/site/iwesep2011/home"
     - name: "IWESEP 2010"
-      url: "https://iwesep.wordpress.com/" 
+      url: "https://iwesep.wordpress.com/"
     - name: "IWESEP 2009"
       url: "http://sdlab.naist.jp/IWESEP2009/organization.html"
 
@@ -260,13 +260,23 @@ params:
     - name: "Dr. Mukul Prasad"
       photo: "/img/Mukul-Prasad.jpg"
       bio: "Dr. Mukul Prasad is a Director in the Advanced Software & Algorithms Laboratory at Fujitsu Laboratories of America. His team's research aims to develop automated tools and methodologies to empower software development teams to be more productive and to develop more correct and reliable software. He has thrice been a co-recipient of the Fujitsu Laboratories President Award for innovation. ​ He has authored over 50 conference and journal papers, including 1 best paper award and 2 best paper nominations, 1 book, and holds over 50 patents. He has served on more than 20 technical program committees of international conferences and workshops. ​ He has a Ph.D. from the University of California at Berkeley and a B.Tech from the Indian Institute of Technology at Delhi. He is a Senior Member of ACM and a Senior Member of IEEE."
-      company: "Director in the Advanced Software & Algorithms Laboratory at Fujitsu Laboratories of America "
+      company: "Director in the Advanced Software & Algorithms Laboratory at Fujitsu Laboratories of America"
       link:
         href: "https://www.fujitsu.com/us/about/businesspolicy/tech/rd/research-staff/mukul-prasad.html"
         text: "website"
       presentation:
         title: "Intelligence-Driven Software Engineering"
         description: "The present-day system of developing and distributing software relies on a sophisticated ecosystem of repositories that catalog virtually every aspect and every kind of artifact of a software's lifecycle. They include version control systems for source code, to bug tracking systems, to online developer and user discussion forums. These repositories, commonly referred to as Big Code, encapsulate vast amounts of human software development expertise, experience, and opinions. This has motivated a burgeoning field of research within software engineering that uses Artificial Intelligence (AI) technologies, such as machine learning, to mine Big Code for relevant insights, i.e., \"intelligence\", and use it to power next-generation software engineering solutions. In this talk I will provide an overview of research conducted at Fujitsu Laboratories of America, in the area of intelligence-driven software engineering, in the context of the larger body of work in this upcoming area. In particular, I will discuss our research in the areas of automated testing, debugging and patching, as well as our efforts to translate this research into practical solutions to help real users to be more productive and to develop more correct and reliable software."
+    - name: "Dr. Fabio Palomba"
+      photo: "/img/Fabio-Palomba.jpg"
+      bio: "Fabio Palomba is an Assistant Professor of Software Engineering at the University of Salerno, Italy. He received the European PhD degree in Management & Information Technology in 2017. His PhD Thesis was the recipient of the 2017 IEEE Computer Society Best PhD Thesis Award (Italy section). His research interests include software maintenance and evolution, software testing, empirical software engineering, source code quality, and mining software repositories. He was the recipient of two ACM/SIGSOFT and one IEEE/TCSE Distinguished Paper Awards at ASE'13, ICSE'15, and ICSME'17, respectively, and Best Paper Awards at CSCW'18 and SANER'18. In 2019 he was the recipient of an SNSF Ambizione grant, one of the most prestigious individual research grants in Europe. He serves and has served as a program committee member of various international conferences (e.g., MSR, ICPC, ICSME), and as referee for various international journals (e.g., TSE, EMSE, JSS) in the field of software engineering. Fabio will be the program co-chair of ICPC 2021, which will be held in Madrid, Spain. Since 2016 he is Review Board Member of EMSE and, since 2019, Editorial Board Member of TOSEM, JSS, and SCICO. He was the recipient of five Distinguished/Outstanding Reviewer Awards for his reviewing activities conducted for EMSE, IST, and JSS between 2015 and 2019."
+      company: "Senior Research Associate at the Zurich Empirical Software Engineering Team (ZEST) of the University of Zurich"
+      link:
+        href: "https://dibt.unimol.it/staff/fpalomba/"
+        text: "website"
+      presentation:
+        title: "Test code quality: A New Measure of Test Code Effectiveness"
+        description: "Test cases form the first line of defense against the introduction of software faults. In the past, researchers have been studying methods and tools to support developers during testing activities, mainly focusing on how to (1) measure the capabilities of test cases in finding real defects in production code and (2) provide them with automatically written tests. Despite this notable effort, the impact of test code quality has been mostly ignored. In this talk, I will show that this aspect has a critical impact on the effectiveness of tests and, particularly, on the presence of flaky tests as well as on the code coverage achievable by test cases automatically generated. Furthermore, I will discuss how test code quality can be employed for predictive analytics and assist developers when assessing test code effectiveness."
 
     # - name: "Check-in / Breakfast"
     #   time: "9h00"

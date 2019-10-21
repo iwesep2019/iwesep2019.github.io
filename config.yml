@@ -26,6 +26,7 @@ params:
     - cfp
     - venue
     - speakers
+    - summit
     # - program
     - organization
     - sponsors
@@ -40,6 +41,7 @@ params:
     cfp: "Call for Papers"
     venue: "Venue"
     speakers: "Special Talk"
+#    summit: "MSR Asia Summit"
     program: "Program"
     organization: "Organization"
     sponsors: "Sponsors"
@@ -279,9 +281,12 @@ params:
       presentation:
         title: "Intelligence-Driven Software Engineering"
         description: "The present-day system of developing and distributing software relies on a sophisticated ecosystem of repositories that catalog virtually every aspect and every kind of artifact of a software's lifecycle. They include version control systems for source code, to bug tracking systems, to online developer and user discussion forums. These repositories, commonly referred to as Big Code, encapsulate vast amounts of human software development expertise, experience, and opinions. This has motivated a burgeoning field of research within software engineering that uses Artificial Intelligence (AI) technologies, such as machine learning, to mine Big Code for relevant insights, i.e., \"intelligence\", and use it to power next-generation software engineering solutions. In this talk I will provide an overview of research conducted at Fujitsu Laboratories of America, in the area of intelligence-driven software engineering, in the context of the larger body of work in this upcoming area. In particular, I will discuss our research in the areas of automated testing, debugging and patching, as well as our efforts to translate this research into practical solutions to help real users to be more productive and to develop more correct and reliable software."
+
+  # Speakers in the MSR Asia Summit session
+  Summit:
     - name: "Dr. Fabio Palomba"
       photo: "/img/Fabio-Palomba.jpg"
-      bio: "Fabio Palomba is an Assistant Professor of Software Engineering at the University of Salerno, Italy. He received the European PhD degree in Management & Information Technology in 2017. His PhD Thesis was the recipient of the 2017 IEEE Computer Society Best PhD Thesis Award (Italy section). His research interests include software maintenance and evolution, software testing, empirical software engineering, source code quality, and mining software repositories. He was the recipient of two ACM/SIGSOFT and one IEEE/TCSE Distinguished Paper Awards at ASE'13, ICSE'15, and ICSME'17, respectively, and Best Paper Awards at CSCW'18 and SANER'18. In 2019 he was the recipient of an SNSF Ambizione grant, one of the most prestigious individual research grants in Europe. He serves and has served as a program committee member of various international conferences (e.g., MSR, ICPC, ICSME), and as referee for various international journals (e.g., TSE, EMSE, JSS) in the field of software engineering. Fabio will be the program co-chair of ICPC 2021, which will be held in Madrid, Spain. Since 2016 he is Review Board Member of EMSE and, since 2019, Editorial Board Member of TOSEM, JSS, and SCICO. He was the recipient of five Distinguished/Outstanding Reviewer Awards for his reviewing activities conducted for EMSE, IST, and JSS between 2015 and 2019."
+      bio: "Dr. Fabio Palomba is an Assistant Professor of Software Engineering at the University of Salerno, Italy. He received the European PhD degree in Management & Information Technology in 2017. His PhD Thesis was the recipient of the 2017 IEEE Computer Society Best PhD Thesis Award (Italy section). His research interests include software maintenance and evolution, software testing, empirical software engineering, source code quality, and mining software repositories. He was the recipient of two ACM/SIGSOFT and one IEEE/TCSE Distinguished Paper Awards at ASE'13, ICSE'15, and ICSME'17, respectively, and Best Paper Awards at CSCW'18 and SANER'18. In 2019 he was the recipient of an SNSF Ambizione grant, one of the most prestigious individual research grants in Europe. He serves and has served as a program committee member of various international conferences (e.g., MSR, ICPC, ICSME), and as referee for various international journals (e.g., TSE, EMSE, JSS) in the field of software engineering. Fabio will be the program co-chair of ICPC 2021, which will be held in Madrid, Spain. Since 2016 he is Review Board Member of EMSE and, since 2019, Editorial Board Member of TOSEM, JSS, and SCICO. He was the recipient of five Distinguished/Outstanding Reviewer Awards for his reviewing activities conducted for EMSE, IST, and JSS between 2015 and 2019."
       company: "Senior Research Associate at the Zurich Empirical Software Engineering Team (ZEST) of the University of Zurich"
       link:
         href: "https://dibt.unimol.it/staff/fpalomba/"

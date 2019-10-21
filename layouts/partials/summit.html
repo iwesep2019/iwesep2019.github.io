@@ -1,21 +1,15 @@
-<h2 class="section-title">Special Talk Hosted by IPSJ SIGSE</h2>
+<h2 class="section-title">MSR Asia Summit Session</h2>
 
 <p>
-  This year, <a href='http://www.ipsj.or.jp/sig/se/index_en.html'>Special Interest Group on Software Engineering</a>
-  (SIGSE) of <a href='https://www.ipsj.or.jp/english/index.html'>Information Processing Society of Japan</a> (IPSJ) will
-  host an invited talk by Dr. Mukul Prasad from Fujitsu Laboratories of America, as a part of the program of <a
-    href='http://www.ipsj.or.jp/kenkyukai/event/se203.html'>the 203rd SIGSE technical meeting</a>.
-​</p><p>
-  Thanks to the kindness of IPSJ SIGSE, <strong>all the attendees of IWESEP 2019 can join this special talk
-    session</strong> with no additional fee.
-  ​
-  This special talk will be held on the morning of Dec. 13 at the same location of IWESEP 2019, and will be in English.
+  IWESEP 2019 will have MSR Asia Summit session, in which we will invite leading researchers in the field of MSR (Mining Software Repositories).
+  It provides participants with opportunities to learn the cutting edge of the research related to MSR. <br>
+
+  This year, we have invited Dr. Fabio Palomba from the Zurich Empirical Software Engineering Team (ZEST) of the University of Zurich, Switzerland.
+  You can find the talk abstract and the speaker biography below.
 </p>
 
-<h3>About the Talk</h3>
-
 <ul class="speakers-list">
-  {{ range $speaker := (where .program "presentation" "ne" nil) }}
+  {{ range $speaker := (where .summit "presentation" "ne" nil) }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
     {{ with .photo }}
     <span class="speaker-photo">
@@ -90,15 +84,6 @@
   He has a Ph.D. from the University of California at Berkeley and a B.Tech from the Indian Institute of Technology at
   Delhi. He is a Senior Member of ACM and a Senior Member of IEEE.
 ​</p> -->
-
-<h3>Notice</h3>
-<p>
-  Please note that IWESEP attendees are allowed to join <strong>only the special talk session</strong>.
-  If you would like to attend the other sessions than the special talk session of the SIGSE technical meeting, you need
-  to register for and pay for the SIGSE technical meeting.
-  <br>
-  <strong>The special talk will be in English</strong>. However, make sure that the other sessions of the SIGSE
-  technical meeting will be mainly in Japanese since the technical meeting itself is a domestic research forum.</p>
 
 <!--
 <ul class="speakers-list">

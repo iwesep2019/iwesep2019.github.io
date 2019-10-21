@@ -203,6 +203,18 @@ params:
         - name: "Eunjong Choi"
           url: "https://se.is.kit.ac.jp/portfolio/eunjong_choi/"
           affiliation: "Kyoto Institute of Technology"
+    - role: "Advisory Committee Members"
+      chair: false
+      member:
+        - name: "Katsuro Inoue"
+          url: "http://sel.ist.osaka-u.ac.jp/people/inoue/"
+          affiliation: "Osaka University"
+        - name: "Shinji Kusumoto"
+          url: "https://sdl.ist.osaka-u.ac.jp/~kusumoto/index-e.htm"
+          affiliation: "Osaka University"
+        - name: "Kenichi Matsumoto"
+          url: "http://isw3.naist.jp/~matumoto/"
+          affiliation: "Nara Institute of Science and Technology"
     - role: "Program Committee Members"
       chair: false
       member:

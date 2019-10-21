@@ -227,9 +227,15 @@ params:
         - name: "Yoshiki Higo"
           url: "http://sdl.ist.osaka-u.ac.jp/~higo/wordpress/"
           affiliation: "Osaka University"
+        - name: "Kiyoshi Honda"
+          # url: ""
+          affiliation: "Osaka Institute of Technology"
         - name: "Shin Hong"
           url: "http://hongshin.github.io/"
           affiliation: "Handong Global University"
+        - name: "Tetsuya Kanda"
+          url: "http://www.tetsuyakanda.jp/"
+          affiliation: "Osaka University"
         - name: "Foutse Khomh"
           url: "http://www.khomh.net/"
           affiliation: "DGIGL, École Polytechnique de Montréal"
@@ -260,12 +266,6 @@ params:
         - name: "Thomas Zimmermann"
           url: "https://www.microsoft.com/en-us/research/people/tzimmer/"
           affiliation: "Microsoft"
-        - name: "Tetsuya Kanda"
-          url: "http://www.tetsuyakanda.jp/"
-          affiliation: "Osaka University"
-        - name: "Kiyoshi Honda"
-          # url: ""
-          affiliation: "Osaka Institute of Technology"
 
   # The entire program
   Program:

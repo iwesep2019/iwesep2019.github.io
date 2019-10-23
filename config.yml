@@ -36,18 +36,34 @@ params:
 
   # Titles which you can translate to other languages
   Titles:
-    about: "IWESEP 2019"
-    important: "Important Dates"
-    cfp: "Call for Papers"
-    venue: "Venue"
-    speakers: "Special Talk"
-#    summit: "MSR Asia Summit"
-    program: "Program"
-    organization: "Organization"
-    sponsors: "Sponsors"
-    partners: "Partners"
-    previous: "Previous"
-    contact: "Contact"
+    about: 
+        title: "Welcome to IWESEP 2019"
+        abbr: "Top"
+    important: 
+        title: "Important Dates"
+    cfp: 
+        title: "Call for Papers"
+        abbr: "CFP"
+    venue: 
+        title: "Venue"
+    speakers: 
+        title: "Special Talk Hosted by IPSJ SIGSE"
+        abbr: "Special Talk"
+    summit: 
+        title: "MSR Asia Summit Session"
+        abbr: "MSR Asia Summit"
+    program: 
+        title: "Program"
+    organization: 
+        title: "Organization"
+    sponsors: 
+        title: "Sponsors"
+    partners: 
+        title: "Partners"
+    previous: 
+        title: "Previous IWESEP"
+        abbr: "Previous"
+    # contact: "Contact"
 
   # List of Important Days
   Important:

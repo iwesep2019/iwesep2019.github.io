@@ -2,9 +2,16 @@
   <div class="wrapper">
     <ul class="social-left">
       {{ range $section := $.Site.Params.Sections }}
+      {{ $title := index $.Site.Params.Titles $section }}
       <li class="nav-item">
-        <a href="#{{ $section }}" target="_blank" title="{{ index $.Site.Params.Titles $section }}" class="nav-link nav-link-big">
-          {{ index $.Site.Params.Titles $section }}
+        <a href="#{{ $section }}" target="_blank" title="{{ $title.abbr }}" class="nav-link nav-link-big">
+          {{ if eq $title.abbr "Top" }}
+          <span class="social fa fa-home fa"></span>
+          {{ else if ne $title.abbr nil }}
+          {{ $title.abbr }}
+          {{ else }}
+          {{ $title.title }}
+          {{ end }}
         </a>
       </li>
       {{ end }}

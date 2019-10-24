@@ -4,9 +4,9 @@
       {{ range $section := $.Site.Params.Sections }}
       {{ $title := index $.Site.Params.Titles $section }}
       <li class="nav-item">
-        <a href="#{{ $section }}" target="_blank" title="{{ $title.abbr }}" class="nav-link nav-link-big">
-          {{ if eq $title.abbr "Top" }}
-          <span class="social fa fa-home fa"></span>
+        <a href="#{{ $section }}" target="_blank" title="{{ $title.title }}" class="nav-link nav-link-big">
+          {{ if eq $title.abbr "About" }}
+          <i class="fa fa-home fa" href="#{{ $section }}" target="_blank"></i>
           {{ else if ne $title.abbr nil }}
           {{ $title.abbr }}
           {{ else }}

@@ -38,7 +38,7 @@ params:
   Titles:
     about: 
         title: "Welcome to IWESEP 2019"
-        abbr: "Top"
+        abbr: "About"
     important: 
         title: "Important Dates"
     cfp: 

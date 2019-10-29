@@ -24,6 +24,7 @@ params:
     - about
     - important
     - cfp
+    - registration
     - venue
     - speakers
     - summit
@@ -44,6 +45,8 @@ params:
     cfp: 
         title: "Call for Papers"
         abbr: "CFP"
+    registration:
+        title: "Registration"
     venue: 
         title: "Venue"
     speakers: 
@@ -61,8 +64,8 @@ params:
     partners: 
         title: "Partners"
     previous: 
-        title: "Previous IWESEP"
-        abbr: "Previous"
+        title: "Past IWESEP"
+        abbr: "Past"
     # contact: "Contact"
 
   # List of Important Days
@@ -84,6 +87,9 @@ params:
       done: false
     - name: "Notifications (Poster)"
       date: "November 10th, 2019 (AOE)"
+      done: false
+    - name: "Registration"
+      date: "December 4th, 2019 (AOE)"
       done: false
 
   # List of Previous Editions
@@ -109,9 +115,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  # CallToAction:
-  #   text: "Register now!"
-  #   link: "https://easychair.org/conferences/?conf=iwesep2019"
+  CallToAction:
+    text: "Register now!"
+    link: "link_to_google_form"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   # ForkButton:

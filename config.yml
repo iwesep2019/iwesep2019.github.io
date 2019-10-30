@@ -117,7 +117,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Register now!"
-    link: "link_to_google_form"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSd__jbCzsDg7wCcvXkGdnIYfxFpYZRhM2ewvHD9Dxdb6B5a9A/viewform"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   # ForkButton:

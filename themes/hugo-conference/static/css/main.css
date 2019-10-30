@@ -284,7 +284,8 @@ hr {
   padding: 50px 0;
 }
 .content section {
-  margin-top: 20px;
+  margin-top: 0px;
+  padding-top: 60px;
 }
 /* =============================================================================
    BASIC STYLES

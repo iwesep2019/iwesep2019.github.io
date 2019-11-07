@@ -78,7 +78,7 @@ params:
       done: true
     - name: "Notifications"
       date: "November 1st, 2019 (AOE)"
-      done: false
+      done: true
     - name: "Camera Ready"
       date: "November 8th, 2019 (AOE)"
       done: false

@@ -84,7 +84,7 @@ params:
       done: false
     - name: "Abstract submission (Poster)"
       date: "November 5th, 2019 (AOE)"
-      done: false
+      done: true
     - name: "Notifications (Poster)"
       date: "November 10th, 2019 (AOE)"
       done: false

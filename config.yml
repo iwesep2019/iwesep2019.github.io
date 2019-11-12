@@ -78,13 +78,13 @@ params:
       done: true
     - name: "Notifications"
       date: "November 1st, 2019 (AOE)"
-      done: false
+      done: true
     - name: "Camera Ready"
       date: "November 8th, 2019 (AOE)"
       done: false
     - name: "Abstract submission (Poster)"
       date: "November 5th, 2019 (AOE)"
-      done: false
+      done: true
     - name: "Notifications (Poster)"
       date: "November 10th, 2019 (AOE)"
       done: false

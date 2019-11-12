@@ -275,7 +275,7 @@ params:
         - name: "Yuki Manabe"
           url: "http://www.dbms.cs.kumamoto-u.ac.jp/~y-manabe/index_en.html"
           affiliation: "Kumamoto University"
-        - name: "Shane Mcintosh"
+        - name: "Shane McIntosh"
           url: "http://shanemcintosh.org/"
           affiliation: "McGill University"
         - name: "Osamu Mizuno"

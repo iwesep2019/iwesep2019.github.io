@@ -15,7 +15,7 @@
 <h3>About the Talk</h3>
 
 <ul class="speakers-list">
-  {{ range $speaker := (where .program "presentation" "ne" nil) }}
+  {{ range $speaker := (where .speakers "presentation" "ne" nil) }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
     {{ with .photo }}
     <span class="speaker-photo">
@@ -52,45 +52,6 @@
   {{ end }}
 </ul>
 
-<!-- <h4>Speaker</h4>
-<p>
-  Dr. Mukul Prasad, <em>Director in the Advanced Software &amp; Algorithms Laboratory at Fujitsu Laboratories of
-    America</em>
-  ​</p>
-<h4>Title</h4>
-<p>
-  Intelligence-Driven Software Engineering
-  ​</p>
-<h4>Talk Abstract</h4>
-<p>
-  The present-day system of developing and distributing software relies on a sophisticated ecosystem of repositories
-  that catalog virtually every aspect and every kind of artifact of a software&#39;s lifecycle. They include version
-  control systems for source code, to bug tracking systems, to online developer and user discussion forums. These
-  repositories, commonly referred to as Big Code, encapsulate vast amounts of human software development expertise,
-  experience, and opinions. This has motivated a burgeoning field of research within software engineering that uses
-  Artificial Intelligence (AI) technologies, such as machine learning, to mine Big Code for relevant insights, i.e.,
-  &quot;intelligence&quot;, and use it to power next-generation software engineering solutions. In this talk I will
-  provide an overview of research conducted at Fujitsu Laboratories of America, in the area of intelligence-driven
-  software engineering, in the context of the larger body of work in this upcoming area. In particular, I will discuss
-  our research in the areas of automated testing, debugging and patching, as well as our efforts to translate this
-  research into practical solutions to help real users to be more productive and to develop more correct and reliable
-  software.
-  ​</p>
-<h4>Speaker Biography</h4>
-<p>
-  Dr. Mukul Prasad is a Director in the Advanced Software &amp; Algorithms Laboratory at Fujitsu Laboratories of
-  America. His team&#39;s research aims to develop automated tools and methodologies to empower software development
-  teams to be more productive and to develop more correct and reliable software. He has thrice been a co-recipient of
-  the Fujitsu Laboratories President Award for innovation.
-  ​
-  He has authored over 50 conference and journal papers, including 1 best paper award and 2 best paper nominations, 1
-  book, and holds over 50 patents. He has served on more than 20 technical program committees of international
-  conferences and workshops.
-  ​
-  He has a Ph.D. from the University of California at Berkeley and a B.Tech from the Indian Institute of Technology at
-  Delhi. He is a Senior Member of ACM and a Senior Member of IEEE.
-​</p> -->
-
 <h3>Notice</h3>
 <p>
   Please note that IWESEP attendees are allowed to join <strong>only the special talk session</strong>.
@@ -99,30 +60,3 @@
   <br>
   <strong>The special talk will be in English</strong>. However, make sure that the other sessions of the SIGSE
   technical meeting will be mainly in Japanese since the technical meeting itself is a domestic research forum.</p>
-
-<!--
-<ul class="speakers-list">
-{{ range $speaker := (where .program "presentation" "ne" nil) }}
-  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-    {{ with .photo }}
-      <span class="speaker-photo">
-        <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
-      </span>
-    {{ end }}
-
-    <h4 class="speech-title">
-      {{ with .presentation.time }}
-      <span class="speech-time">{{ . }}</span>
-      {{ end }}
-      <span>{{ .presentation.title }}</span>
-    </h4>
-
-    <h4 class="speakers-name">{{ .name }}
-      {{ with .link }}
-      <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
-      {{ end }}
-    </h4>
-    <p class="speakers-bio">{{ .bio }}</p>
-  </li>
-{{ end }}
-</ul> -->

@@ -292,7 +292,7 @@ params:
           affiliation: "Microsoft"
 
   # The entire program
-  Program:
+  Speakers:
     - name: "Dr. Mukul Prasad"
       photo: "/img/Mukul-Prasad.jpg"
       bio: "Dr. Mukul Prasad is a Director in the Advanced Software & Algorithms Laboratory at Fujitsu Laboratories of America. His team's research aims to develop automated tools and methodologies to empower software development teams to be more productive and to develop more correct and reliable software. He has thrice been a co-recipient of the Fujitsu Laboratories President Award for innovation. ​ He has authored over 50 conference and journal papers, including 1 best paper award and 2 best paper nominations, 1 book, and holds over 50 patents. He has served on more than 20 technical program committees of international conferences and workshops. ​ He has a Ph.D. from the University of California at Berkeley and a B.Tech from the Indian Institute of Technology at Delhi. He is a Senior Member of ACM and a Senior Member of IEEE."
@@ -317,83 +317,5 @@ params:
         title: "Test code quality: A New Measure of Test Code Effectiveness"
         description: "Test cases form the first line of defense against the introduction of software faults. In the past, researchers have been studying methods and tools to support developers during testing activities, mainly focusing on how to (1) measure the capabilities of test cases in finding real defects in production code and (2) provide them with automatically written tests. Despite this notable effort, the impact of test code quality has been mostly ignored. In this talk, I will show that this aspect has a critical impact on the effectiveness of tests and, particularly, on the presence of flaky tests as well as on the code coverage achievable by test cases automatically generated. Furthermore, I will discuss how test code quality can be employed for predictive analytics and assist developers when assessing test code effectiveness."
 
-    # - name: "Check-in / Breakfast"
-    #   time: "9h00"
-
-    # - name: "Linus Torvalds"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Linux Foundation"
-    #   link:
-    #     href: "http://twitter.com/linus"
-    #     text: "@linus"
-    #   presentation:
-    #     title: "Digging into a Linux Kernel"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "10h00"
-
-    # - name: "Bill Gates"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Microsoft"
-    #   link:
-    #     href: "http://github.com/billy95"
-    #     text: "@billy95"
-    #   presentation:
-    #     title: "Introducing Windows 12"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "11h00"
-
-    # - name: "Lunch"
-    #   time: "12h00"
-
-    # - name: "Chuck Norris"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Delta Command"
-    #   link:
-    #     href: "http://twitter.com/littlechuck"
-    #     text: "@littlechuck"
-    #   presentation:
-    #     title: "How to kill a elephant with one finger"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "13h00"
-
-    # - name: "Steve Jobs"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Apple, Inc."
-    #   link:
-    #     href: "http://github.com/stevie"
-    #     text: "@stevie"
-    #   presentation:
-    #     title: "Presenting iPad"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "14h00"
-
-    # - name: "Coffee-break"
-    #   time: "15h00"
-
-    # - name: "Mark Zuckerberg"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Facebook"
-    #   link:
-    #     href: "http://twitter.com/zuck"
-    #     text: "@zuck"
-    #   presentation:
-    #     title: "Revealing Facebook Secrets"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "16h00"
-
-    # - name: "Steve Wozniak"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Apple, Inc."
-    #   link:
-    #     href: "http://twitter.com/woz"
-    #     text: "@woz"
-    #   presentation:
-    #     title: "Why do I prefer Android over iPhone"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "17h00"
+  Program:
+    - 

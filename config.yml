@@ -26,9 +26,9 @@ params:
     - cfp
     - registration
     - venue
+    - program
     - speakers
     - summit
-    # - program
     - organization
     - sponsors
     # - partners
@@ -291,7 +291,7 @@ params:
           url: "https://www.microsoft.com/en-us/research/people/tzimmer/"
           affiliation: "Microsoft"
 
-  # The entire program
+  # # Speakers in Special Talk Hosted by IPSJ SIGSE
   Speakers:
     - name: "Dr. Mukul Prasad"
       photo: "/img/Mukul-Prasad.jpg"
@@ -316,6 +316,110 @@ params:
       presentation:
         title: "Test code quality: A New Measure of Test Code Effectiveness"
         description: "Test cases form the first line of defense against the introduction of software faults. In the past, researchers have been studying methods and tools to support developers during testing activities, mainly focusing on how to (1) measure the capabilities of test cases in finding real defects in production code and (2) provide them with automatically written tests. Despite this notable effort, the impact of test code quality has been mostly ignored. In this talk, I will show that this aspect has a critical impact on the effectiveness of tests and, particularly, on the presence of flaky tests as well as on the code coverage achievable by test cases automatically generated. Furthermore, I will discuss how test code quality can be employed for predictive analytics and assist developers when assessing test code effectiveness."
-
+  
+  # The entire program
   Program:
-    - 
+
+    - type: "date"
+      date: "December 13th"
+
+    - type: "session"
+      time: "10:00 - 11:30"
+      name: "Special Talk Hosted by IPSJ SIGSE"
+      link: "speakers"
+
+    - type: "session"
+      time: "11:30 - 13:00"
+      name: "Lunch"
+
+    - type: "session"
+      time: "13:00 - 13:20"
+      name: "Opening"
+
+    - type: "session"
+      time: "13:20 - 14:10"
+      name: "Session 1 (2 talks)"
+      presentation:
+
+        - author: "Juntong Hong, Osamu Mizuno and Masanari Kondo."
+          title: "An empirical study of source code detection using image classification"
+
+        - author: "Thanadon Bunkerd, Thanwadee Sunetnanta, Dong Wang, Raula Gaikovina, Takashi Ishio, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul and Kenichi Matsumoto."
+          title: "An Exploratory Study on how Contributors Impact Code Naturalness: The Case of 50 Python Projects"
+
+    - type: "session"
+      time: "14:10 - 14:30"
+      name: "Break"
+
+    - type: "session"
+      time: "14:30 - 15:20"
+      name: "Session 2 (2 talks)"
+      presentation:
+
+        - author: "Kiyoshi Honda, Hironori Washizaki, Yoshiaki Fukazawa, Masahiro Taga and Akira Matsuzaki."
+          title: "Industrial Case Study on Time Series Analysis of Metrics Changes Based on GQM Models"
+
+        - author: "Noppadol Assavakamhaenghan, Morakot Choetkiertikul, Suppawong Tuarob, Raula Gaikovina Kula, Hideaki Hata, Chaiyong Ragkhitwetsagul, Thanwadee Sunetnanta and Kenichi Matsumoto."
+          title: "Software Team Member Conﬁgurations: A Study of Team Effectiveness in Moodle"
+        
+    - type: "session"
+      time: "15:20 - 15:40"
+      name: "Break"
+
+    - type: "session"
+      time: "15:40 - 16:40"
+      name: "Poster Session"
+
+    - type: "date"
+      date: "December 14th"
+
+    - type: "session"
+      time: "9:30 - 10:20"
+      name: "Session 3 (2 talks)"
+      presentation:
+
+        - author: "Ryo Ishizuka, Hironori Washizaki, Yoshiaki Fukazawa, Shinobu Saito and Saori Ouji."
+          title: "Categorizing and visualizing issue tickets to better understand the features implemented in existing software systems"
+
+        - author: "Vara Arammongkolvichai, Rainer Koschke, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul and Thanwadee Sunetnanta."
+          title: "Improving Clone Detection Precision using Machine Learning Techniques"
+
+    - type: "session"
+      time: "10:20 - 10:40"
+      name: "Break"
+
+    - type: "session"
+      time: "10:40 - 11:40"
+      name: "MSR Asia Summit Session"
+      link: "summit"
+
+    - type: "session"
+      time: "11:40 - 13:20"
+      name: "Lunch"
+
+    - type: "session"
+      time: "13:20 - 14:35"
+      name: "Session 4 (3 talks)"
+      presentation:
+
+        - author: "Junnosuke Matsumoto, Yoshiki Higo, Hiroyuki Matsuo, Ryo Arima, Shinsuke Matsumoto and Shinji Kusumoto."
+          title: "GenProg meets Cluster Computing"
+
+        - author: "Tattiya Sakulniwat, Raula Gaikovina Kula, Takashi Ishio, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul, Thanwadee Sunetnanta, Dong Wang and Kenichi Matsumoto."
+          title: "Visualizing the Usage of Pythonic Idioms Over Time: A Case Study of the with open Idiom"
+
+        - author: "Hironori Washizaki, Hiromu Uchida, Foutse Khomh and Yann-Gaël Guéhéneuc."
+          title: "Studying Software Engineering Patterns for Designing Machine Learning Systems"
+        
+    - type: "session"
+      time: "14:35 - 14:55"
+      name: "Break"
+
+    - type: "session"
+      time: "14:55 - 15:05"
+      name: "Spcial Talk from Prof.Kenichi Matsumoto"
+      # link: "speakers"
+
+    - type: "session"
+      time: "15:05 - 15:35"
+      name: "Award Ceremony & Closing "

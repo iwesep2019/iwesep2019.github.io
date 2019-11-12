@@ -437,7 +437,7 @@ nav {
 .schedule-tbl td,
 .schedule-tbl th {
   position: relative;
-  padding: 20px 30px;
+  padding: 15px 20px;
   font-size: 1.4em;
   line-height: 1.4em;
   text-align: left;
@@ -456,7 +456,8 @@ nav {
   margin-right: 20px;
 }
 .schedule-tbl .schedule-time {
-  text-align: center;
+  text-align: left;
+  width: 20%;
 }
 .schedule-slot {
   width: 250px;
@@ -568,7 +569,7 @@ nav {
     line-height: 1.2em;
   }
   .schedule-tbl .schedule-time {
-    width: 60px;
+    width: 25%;
     padding: 10px 0 10px 5px;
     text-align: left;
   }
@@ -874,11 +875,21 @@ nav {
 .schedule-tbl tbody tr:hover {
   background: #fffde1;
 }
-.schedule-coffee,
-.schedule-closing,
-.schedule-lunch,
+.schedule-date,
 .schedule-other {
   color: #214f87;
+}
+
+/* .schedule-closing, */
+.schedule-coffee,
+.schedule-lunch {
+  color: #999;
+  padding-right: 0.2em
+}
+
+.schedule-date td {
+  font-size: 1.8em !important;
+  font-weight: bold;
 }
 /* =============================================================================
    SPONSORS
@@ -1009,19 +1020,21 @@ ul.organization{
    Header
    ========================================================================== */
 span.social {
+  font-size: 1.4em;
   margin-left: 0.5em;
   color: #e7e7e7;
 }
 .social-left {
-  width: 85%;
+  width: 90%;
   margin-left: 0em;
   float: left;
   margin-top: 0.3em;
 }
 .social-right {
-  width: auto;
+  width: 10%;
   float: right;
   margin-right: 0em;
+  margin-top: 0.3em;
 }
 
 /* =============================================================================
@@ -1084,3 +1097,18 @@ padding: 0em;
   font-family: 'Courier New', Consolas, monospace !important;
 }
   
+/* =============================================================================
+   Presentation
+   ========================================================================== */
+p.presentation-title {
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #214f87;
+}
+
+p.presentation-name {
+  font-size: 0.9em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

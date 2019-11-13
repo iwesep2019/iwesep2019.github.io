@@ -10,12 +10,10 @@ params:
   Name: "IWESEP 2019"
   Description: "The 10th International Workshop on Empirical Software Engineering in Practice"
   Date: "December 13-14, 2019"
-  # Price: "Only $100" # If your event is free, just comment this line
   Venue: "Nishiwaseda Campus of Waseda University"
   Address: "3-4-1 Ookubo, Shinjuku-ku, Tokyo, 169-8555, JAPAN"
   City:  "Tokyo"
   State: "Japan"
-  # Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
@@ -316,6 +314,16 @@ params:
       presentation:
         title: "Test code quality: A New Measure of Test Code Effectiveness"
         description: "Test cases form the first line of defense against the introduction of software faults. In the past, researchers have been studying methods and tools to support developers during testing activities, mainly focusing on how to (1) measure the capabilities of test cases in finding real defects in production code and (2) provide them with automatically written tests. Despite this notable effort, the impact of test code quality has been mostly ignored. In this talk, I will show that this aspect has a critical impact on the effectiveness of tests and, particularly, on the presence of flaky tests as well as on the code coverage achievable by test cases automatically generated. Furthermore, I will discuss how test code quality can be employed for predictive analytics and assist developers when assessing test code effectiveness."
+    - name: "Dr. Maurício Aniche"
+      photo: "/img/Maurício-Aniche.jpg"
+      bio: "TBD"
+      company: "Assistant Professor at TU Delft"
+      link:
+        href: "https://www.mauricioaniche.com/"
+        text: "website"
+      presentation:
+        title: "TBD"
+        description: "TBD"
   
   # The entire program
   Program:

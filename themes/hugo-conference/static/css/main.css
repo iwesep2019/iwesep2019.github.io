@@ -443,7 +443,7 @@ nav {
   text-align: left;
 }
 .schedule-tbl th {
-  padding: 5px 30px;
+  padding: 5px 20px;
   color: #2b2b2b;
   font-size: 2em;
   font-weight: bolder;
@@ -569,7 +569,7 @@ nav {
     line-height: 1.2em;
   }
   .schedule-tbl .schedule-time {
-    width: 25%;
+    width: 20%;
     padding: 10px 0 10px 5px;
     text-align: left;
   }
@@ -861,7 +861,7 @@ nav {
   background: #f6f6f6;
 }
 .schedule-tbl th {
-  color: #2b2b2b;
+  color: #777;
 }
 .schedule-tbl .speaker-photo .photo {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
@@ -952,8 +952,9 @@ nav {
    Important Dates
    ========================================================================== */
 .important-dates {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
+  color: #777;
   margin: 0%
 }
 .done {

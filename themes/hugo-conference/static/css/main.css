@@ -417,6 +417,8 @@ nav {
 .speakers-bio,
 .speech-abst {
   font-size: 1.4em;
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 .speakers-item p {
   font-size: 1.4em;

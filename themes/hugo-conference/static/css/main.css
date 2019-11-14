@@ -1087,16 +1087,18 @@ padding: 0em;
   margin-bottom: 0em;
   margin-left: 1em;
   padding: 0em;
+  font-size: 1.6em;
+  line-height: 1.6em;
 }
 
 .registration p {
   margin-bottom: 20px;
 }
 
-.registration span {
-  font-size: 1.6em;
-  line-height: 1.6em;
+li.level2 {
+  margin-left: 2em;
 }
+
 .registration code {
   color: #214f87;
   font-family: 'Courier New', Consolas, monospace !important;

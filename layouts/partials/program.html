@@ -27,10 +27,20 @@
           {{ end }}
           {{ with .link }}
           <a href="#{{ . }}" target="_blank" rel="noopener" class="nav-link">
-          {{ end }}
-          {{ .name }}
-          {{ with .link }}
+            {{ end }}
+            {{ .name }}
+            {{ with .link }}
           </a>
+          {{ end }}
+          {{ with .poster }}
+          <div class="open">
+            {{ end }}
+            {{ range $slot := .poster }}
+            <p class="presentation-title">{{ .title }}</p>
+            <p class="presentation-name">{{ .author }}</p>
+            {{ end }}
+            {{ with .poster }}
+          </div>
           {{ end }}
           {{ range $slot := .presentation }}
           <p class="presentation-title">{{ .title }}</p>

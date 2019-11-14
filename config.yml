@@ -10,12 +10,10 @@ params:
   Name: "IWESEP 2019"
   Description: "The 10th International Workshop on Empirical Software Engineering in Practice"
   Date: "December 13-14, 2019"
-  # Price: "Only $100" # If your event is free, just comment this line
   Venue: "Nishiwaseda Campus of Waseda University"
   Address: "3-4-1 Ookubo, Shinjuku-ku, Tokyo, 169-8555, JAPAN"
   City:  "Tokyo"
   State: "Japan"
-  # Images: ["/img/badge.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
@@ -316,6 +314,16 @@ params:
       presentation:
         title: "Test code quality: A New Measure of Test Code Effectiveness"
         description: "Test cases form the first line of defense against the introduction of software faults. In the past, researchers have been studying methods and tools to support developers during testing activities, mainly focusing on how to (1) measure the capabilities of test cases in finding real defects in production code and (2) provide them with automatically written tests. Despite this notable effort, the impact of test code quality has been mostly ignored. In this talk, I will show that this aspect has a critical impact on the effectiveness of tests and, particularly, on the presence of flaky tests as well as on the code coverage achievable by test cases automatically generated. Furthermore, I will discuss how test code quality can be employed for predictive analytics and assist developers when assessing test code effectiveness."
+    - name: "Dr. Maurício Aniche"
+      photo: "/img/Maurício-Aniche.jpg"
+      bio: "Dr. Maurício Aniche is an Assistant Professor in Software Engineering at Delft University of Technology, the Netherlands. His line of work focuses on how to make developers more productive during maintenance and testing. His research has been published in top-tier conferences (ICSE, FSE, ASE) and journals (TSE, EMSE). He always had a foot in industry. During his MSc, he co-founded Alura, the biggest e-learning platform for software engineers in Brazil. Because of Alura, he has given training and consultancy on software development and testing to 27 different companies, from 2010 to 2015. Moreover, he published three books focused on practitioners (\"OOP and SOLID for ninjas\", \"Test-Driven Development in the real world\", and \"A Practical Guide on Software Testing\"), which, altogether, have sold 10k copies. All these activities have given him a very particular vision on software engineering and testing should be done in practice. Now, fully dedicated to academia, he still (desires and) partners up with companies. In the last two years, he has been working closely with Adyen, a Dutch payment unicorn. His work with the company has been published in prestigious venues such as FSE, as well as ICSE's and ICSME's industry tracks."
+      company: "Assistant Professor at TU Delft"
+      link:
+        href: "https://www.mauricioaniche.com/"
+        text: "website"
+      presentation:
+        title: "Testing in production"
+        description: "\"Testing in production\" used to be a joke among developers. However, given the complexity of the large and distributed systems that take care of important parts of our lives, \"testing in development\", or, in other words, prevention, might not be enough anymore. In this talk, I'll discuss the importance of systems monitoring, logging, and log analysis to modern software systems. I'll reflect on the current state-of-the-art in industry and research fields, as well as the current open challenges. A great part of this talk is based on the research we conducted at Adyen, a large-scale payment company, that serves companies such as Facebook, Uber, and Spotify."
   
   # The entire program
   Program:
@@ -369,6 +377,34 @@ params:
     - type: "session"
       time: "15:40 - 16:40"
       name: "Poster Session"
+      poster:
+
+        - author: "Jonathan Komala, Tetsuya Kanda, Tsuyoshi Mizouchi and Katsuro Inoue"
+          title: "Visualizing Phase Transition for Real-Time 3D Profiler"
+        - author: "Supatsara Wattanakriengkrai, Hideaki Hata and Kenichi Matsumoto"
+          title: "Identifying publication citations in source code comments using BERT"
+        - author: "Nozomi Nakajima, Shinsuke Matsumoto and Shinji Kusumoto"
+          title: "Source Code Neutralization for Mining Software Repositories"
+        - author: "Tomoki Koguchi and Akinori Ihara"
+          title: "Identification of Future Active Contributors based on Activities in Outside OSS Community"
+        - author: "Yuta Kimura and Masao Ohira"
+          title: "Investigating mislabeling in making a dataset for automated NFR classification"
+        - author: "Ryota Ando and Akinori Ihara"
+          title: "An Analysis of Computational Thinking to Implement Scratch Programs"
+        - author: "Haruki Fukumoto and Akinori Ihara"
+          title: "An Analysis of Patch Acceptance Using Test Case Generation Tool"
+        - author: "Ifraz Rehman, Raula Gaikovina Kula and Kenichi Matsumoto"
+          title: "An Analysis the Different GitHub Projects that Attract Newbies"
+        - author: "Satoshi Yamashita, Shinpei Hayashi and Motoshi Saeki"
+          title: "An Interactive Environment for Tailoring Automatically Untangled Changes"
+        - author: "Aoi Takahashi, Natthawute Sae-Lim, Shinpei Hayashi and Motoshi Saeki"
+          title: "Investigating Effective Usages of Code Smell Information for Bug Localization"
+        - author: "Yuta Minami, Akinori Ihara and Haruki Fukumoto"
+          title: "Understanding Usages, Updates, and Risks of Static Analysis Tool in Open Source Software Projects"
+        - author: "Tsubasa Sunada, Yuki Ueda, Takashi Ishio, Toshiki Hirao and Kenichi Matsumoto"
+          title: "The Impact of CI Bots Installation on Code Reviews in OSS Development"
+        - author: "Yutaro Otani, Motoshi Saeki and Shinpei Hayashi"
+          title: "Toward Automated Refactoring of Clone Groups    "
 
     - type: "date"
       date: "December 14th"

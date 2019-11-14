@@ -349,10 +349,10 @@ params:
       name: "Session 1 (2 talks)"
       presentation:
 
-        - author: "Juntong Hong, Osamu Mizuno and Masanari Kondo."
+        - author: "Juntong Hong, Osamu Mizuno and Masanari Kondo"
           title: "An empirical study of source code detection using image classification"
 
-        - author: "Thanadon Bunkerd, Thanwadee Sunetnanta, Dong Wang, Raula Gaikovina, Takashi Ishio, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul and Kenichi Matsumoto."
+        - author: "Thanadon Bunkerd, Thanwadee Sunetnanta, Dong Wang, Raula Gaikovina, Takashi Ishio, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul and Kenichi Matsumoto"
           title: "An Exploratory Study on how Contributors Impact Code Naturalness: The Case of 50 Python Projects"
 
     - type: "session"
@@ -364,10 +364,10 @@ params:
       name: "Session 2 (2 talks)"
       presentation:
 
-        - author: "Kiyoshi Honda, Hironori Washizaki, Yoshiaki Fukazawa, Masahiro Taga and Akira Matsuzaki."
+        - author: "Kiyoshi Honda, Hironori Washizaki, Yoshiaki Fukazawa, Masahiro Taga and Akira Matsuzaki"
           title: "Industrial Case Study on Time Series Analysis of Metrics Changes Based on GQM Models"
 
-        - author: "Noppadol Assavakamhaenghan, Morakot Choetkiertikul, Suppawong Tuarob, Raula Gaikovina Kula, Hideaki Hata, Chaiyong Ragkhitwetsagul, Thanwadee Sunetnanta and Kenichi Matsumoto."
+        - author: "Noppadol Assavakamhaenghan, Morakot Choetkiertikul, Suppawong Tuarob, Raula Gaikovina Kula, Hideaki Hata, Chaiyong Ragkhitwetsagul, Thanwadee Sunetnanta and Kenichi Matsumoto"
           title: "Software Team Member Conﬁgurations: A Study of Team Effectiveness in Moodle"
         
     - type: "session"
@@ -404,7 +404,7 @@ params:
         - author: "Tsubasa Sunada, Yuki Ueda, Takashi Ishio, Toshiki Hirao and Kenichi Matsumoto"
           title: "The Impact of CI Bots Installation on Code Reviews in OSS Development"
         - author: "Yutaro Otani, Motoshi Saeki and Shinpei Hayashi"
-          title: "Toward Automated Refactoring of Clone Groups    "
+          title: "Toward Automated Refactoring of Clone Groups"
 
     - type: "date"
       date: "December 14th"
@@ -414,10 +414,10 @@ params:
       name: "Session 3 (2 talks)"
       presentation:
 
-        - author: "Ryo Ishizuka, Hironori Washizaki, Yoshiaki Fukazawa, Shinobu Saito and Saori Ouji."
+        - author: "Ryo Ishizuka, Hironori Washizaki, Yoshiaki Fukazawa, Shinobu Saito and Saori Ouji"
           title: "Categorizing and visualizing issue tickets to better understand the features implemented in existing software systems"
 
-        - author: "Vara Arammongkolvichai, Rainer Koschke, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul and Thanwadee Sunetnanta."
+        - author: "Vara Arammongkolvichai, Rainer Koschke, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul and Thanwadee Sunetnanta"
           title: "Improving Clone Detection Precision using Machine Learning Techniques"
 
     - type: "session"
@@ -438,13 +438,13 @@ params:
       name: "Session 4 (3 talks)"
       presentation:
 
-        - author: "Junnosuke Matsumoto, Yoshiki Higo, Hiroyuki Matsuo, Ryo Arima, Shinsuke Matsumoto and Shinji Kusumoto."
+        - author: "Junnosuke Matsumoto, Yoshiki Higo, Hiroyuki Matsuo, Ryo Arima, Shinsuke Matsumoto and Shinji Kusumoto"
           title: "GenProg meets Cluster Computing"
 
-        - author: "Tattiya Sakulniwat, Raula Gaikovina Kula, Takashi Ishio, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul, Thanwadee Sunetnanta, Dong Wang and Kenichi Matsumoto."
+        - author: "Tattiya Sakulniwat, Raula Gaikovina Kula, Takashi Ishio, Chaiyong Ragkhitwetsagul, Morakot Choetkiertikul, Thanwadee Sunetnanta, Dong Wang and Kenichi Matsumoto"
           title: "Visualizing the Usage of Pythonic Idioms Over Time: A Case Study of the with open Idiom"
 
-        - author: "Hironori Washizaki, Hiromu Uchida, Foutse Khomh and Yann-Gaël Guéhéneuc."
+        - author: "Hironori Washizaki, Hiromu Uchida, Foutse Khomh and Yann-Gaël Guéhéneuc"
           title: "Studying Software Engineering Patterns for Designing Machine Learning Systems"
         
     - type: "session"

@@ -122,6 +122,9 @@ q:after {
   content: "";
   content: none;
 }
+s {
+  text-decoration: line-through;
+}
 small {
   font-size: 85%;
 }
@@ -1107,6 +1110,8 @@ li.level2 {
 /* =============================================================================
    Presentation
    ========================================================================== */
+
+
 p.presentation-title {
   font-size: 1.2em;
   margin-top: 10px;

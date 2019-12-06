@@ -88,7 +88,7 @@ params:
       done: true
     - name: "Registration"
       date: "December 4th, 2019 (AOE)"
-      done: false
+      done: true
 
   # List of Previous Editions
   Previous:
@@ -347,6 +347,7 @@ params:
     - type: "session"
       time: "13:20 - 14:10"
       name: "Session 1 (2 talks)"
+      chair: "Kiyoshi Honda"
       presentation:
 
         - author: "Juntong Hong, Osamu Mizuno and Masanari Kondo"
@@ -362,6 +363,7 @@ params:
     - type: "session"
       time: "14:30 - 15:20"
       name: "Session 2 (2 talks)"
+      chair: "Masanari Kondo"
       presentation:
 
         - author: "Kiyoshi Honda, Hironori Washizaki, Yoshiaki Fukazawa, Masahiro Taga and Akira Matsuzaki"
@@ -412,6 +414,7 @@ params:
     - type: "session"
       time: "9:30 - 10:20"
       name: "Session 3 (2 talks)"
+      chair: "Haruki Yokoyama"
       presentation:
 
         - author: "Ryo Ishizuka, Hironori Washizaki, Yoshiaki Fukazawa, Shinobu Saito and Saori Ouji"
@@ -428,6 +431,7 @@ params:
       time: "10:40 - 11:40"
       name: "MSR Asia Summit Session"
       link: "summit"
+      chair: "Akinori Ihara"
 
     - type: "session"
       time: "11:40 - 13:20"
@@ -436,6 +440,7 @@ params:
     - type: "session"
       time: "13:20 - 14:35"
       name: "Session 4 (3 talks)"
+      chair: "Yutaro Kashiwa"
       presentation:
 
         - author: "Junnosuke Matsumoto, Yoshiki Higo, Hiroyuki Matsuo, Ryo Arima, Shinsuke Matsumoto and Shinji Kusumoto"
@@ -453,7 +458,7 @@ params:
 
     - type: "session"
       time: "14:55 - 15:05"
-      name: "Spcial Talk from Prof.Kenichi Matsumoto"
+      name: "Spcial Talk from Prof. Kenichi Matsumoto"
       # link: "speakers"
 
     - type: "session"

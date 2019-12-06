@@ -88,7 +88,7 @@ params:
       done: true
     - name: "Registration"
       date: "December 4th, 2019 (AOE)"
-      done: false
+      done: true
 
   # List of Previous Editions
   Previous:

@@ -38,8 +38,10 @@
           {{ with .poster }}
           <div class="open">
             {{ end }}
+            {{ $counter := 0 }}
             {{ range $slot := .poster }}
-            <p class="presentation-title">{{ .title }}</p>
+            {{ $counter = add $counter 1 }}
+            <p class="presentation-title">{{ $counter }}. {{ .title }}</p>
             <p class="presentation-name">{{ .author }}</p>
             {{ end }}
             {{ with .poster }}

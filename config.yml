@@ -428,13 +428,13 @@ params:
       name: "Break"
 
     - type: "session"
-      time: "10:40 - 11:40"
+      time: "10:40 - 12:00"
       name: "MSR Asia Summit Session"
       link: "summit"
       chair: "Akinori Ihara"
 
     - type: "session"
-      time: "11:40 - 13:20"
+      time: "12:00 - 13:20"
       name: "Lunch"
 
     - type: "session"

@@ -393,7 +393,7 @@ params:
           title: "Investigating mislabeling in making a dataset for automated NFR classification"
         - author: "Ryota Ando and Akinori Ihara"
           title: "An Analysis of Computational Thinking to Implement Scratch Programs"
-        - author: "Haruki Fukumoto and Akinori Ihara"
+        - author: "Haruki Fukumoto, Akinori Ihara, Takashi Ishio, and Yuki Ueda"
           title: "An Analysis of Patch Acceptance Using Test Case Generation Tool"
         - author: "Ifraz Rehman, Raula Gaikovina Kula and Kenichi Matsumoto"
           title: "An Analysis of the Different Github Projects that Attract Newbies"

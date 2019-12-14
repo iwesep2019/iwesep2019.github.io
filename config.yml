@@ -428,17 +428,17 @@ params:
       name: "Break"
 
     - type: "session"
-      time: "10:40 - 12:00"
+      time: "10:40 - 12:10"
       name: "MSR Asia Summit Session"
       link: "summit"
       chair: "Akinori Ihara"
 
     - type: "session"
-      time: "12:00 - 13:20"
+      time: "12:10 - 13:30"
       name: "Lunch"
 
     - type: "session"
-      time: "13:20 - 14:35"
+      time: "13:30 - 14:45"
       name: "Session 4 (3 talks)"
       chair: "Yutaro Kashiwa"
       presentation:
@@ -453,14 +453,14 @@ params:
           title: "Studying Software Engineering Patterns for Designing Machine Learning Systems"
         
     - type: "session"
-      time: "14:35 - 14:55"
+      time: "14:45 - 15:05"
       name: "Break"
 
     - type: "session"
-      time: "14:55 - 15:05"
+      time: "15:05 - 15:15"
       name: "Spcial Talk from Prof. Kenichi Matsumoto"
       # link: "speakers"
 
     - type: "session"
-      time: "15:05 - 15:35"
+      time: "15:15 - 15:35"
       name: "Award Ceremony & Closing "
